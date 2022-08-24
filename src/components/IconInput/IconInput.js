@@ -72,7 +72,7 @@ const IconInput = ({
 
   return (
     <InoutWrapper>
-      <AbsoluteIcon id="search" size={size==='large' ? 18 : 14}  inputSize={size} />
+      <AbsoluteIcon id={icon} size={size==='large' ? 18 : 14}  inputSize={size} />
       <Component placeholder={placeholder} width={width} />
     </InoutWrapper>
   );
